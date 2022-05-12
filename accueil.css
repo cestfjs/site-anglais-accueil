@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*header*/
+
+
+.source{
+position: absolute;
+z-index: 1;
+color: white;
+text-decoration: none;
+float: right;
+}
+nav{
+min-height: 10vh;
+display: flex;
+align-items: center;
+width: 90%;
+margin: auto;
+padding: 2rem;
+}
+nav h1{
+color: white;
+flex: 1 1 40rem;
+font-size: 50;
+text-decoration: none;
+float: right;
+}
+nav ul{
+display: flex;
+flex: 1 1 40rem;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+}
+.header{
+background-color: #c86547;
+}
+.bouton{
+z-index: 1
+border-bottom: 1px dotted black
+}
+.logo{
+text-decoration: none;
+float: left;
+}
+.logo_insta{
+float: left;
+}
+
+
+/*article*/
+
+.article{
+  margin: 2rem 2rem 2rem 2rem
+}
+.img_article img{
+  width: 300px
+}
+.titre_article{
+  font-size: 40px;
+  margin-left: 17px;
+  text-decoration: none;
+}
+
